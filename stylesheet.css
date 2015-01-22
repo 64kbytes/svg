@@ -1,0 +1,16 @@
+body{
+	background: #0D0B15;
+}
+
+#paper{
+	width: 1000px;
+	height: 600px;
+}
+
+path, polygon, polyline{
+	-webkit-transition: fill .5s ease-in-out;
+    -moz-transition: fill .5s ease-in-out;
+    -o-transition: fill .5s ease-in-out;
+    -ms-transition: fill .5s ease-in-out;    
+    transition: fill .5s ease-in-out;
+}
